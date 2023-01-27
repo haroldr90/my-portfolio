@@ -1,0 +1,141 @@
+body{
+    background-color: #212121;
+}
+
+.navbar{
+    background-color: rgba(33, 33, 33, 0);
+    padding: 8px 60px;
+}
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.navbar ul li a{
+    color: #EAEBEE !important;
+    font-size: 0.85em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.navbar .nav-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+}
+
+.navbar .nav-icon svg{
+    color: #EAEBEE;
+    height: 18px;
+    width: 18px;
+}
+
+.da-footer{
+    padding: 1rem;
+    color: #EAEBEE;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.87rem;
+    bottom: 0 !important;
+}
+
+.section-footer{
+    vertical-align: middle;
+    padding: 16px;
+}
+
+.da-footer .social-media a{
+    padding: 16px 12px;
+    color: #afafaf;
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+    transition: 0.24s ease-in-out;
+}
+
+.da-footer .social-media a:hover{
+    background-color: rgba(91, 91, 91, 0.2);
+    color: #2196f3;
+    cursor: pointer;
+    padding: 16px 12px;
+}
+
+.navbar .my-nav-button{
+    border: none;
+}
+
+.hero-content{
+    margin-top: 124px;
+    margin-bottom: auto;
+    padding: 56px;
+    min-height: 360px;
+    justify-content: center;
+}
+
+.hero-content h1{
+    color: #EAEBEE;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.74rem;
+    margin: 0;
+}
+
+.hero-content .divider{
+    height: 2px;
+    width: 24px;
+    background-color: #EAEBEE;
+    margin: 12px auto;
+}
+
+.hero-content p{
+    font-size: 0.87rem;
+    font-weight: 200;
+    color: #ffffff;
+    line-height: 1.5rem;
+}
+
+.construction{
+    justify-content: center;
+}
+
+.construction p{
+    color: #d99e28;
+    font-family: 'Roboto' sans-serif;
+    margin: 12px;
+    font-size: 0.87rem;
+    font-weight: 500;
+}
+
+.construction svg{
+    color: #d99e28;
+    height: 20px;
+    width: 20px;    
+}
+
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation 0.5s infinite ease-in-out;
+    opacity: .7;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
